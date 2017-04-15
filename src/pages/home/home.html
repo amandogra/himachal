@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-buttons end>
+            <button ion-button icon-only (click)="searchButtonClicked()">
+                <ion-icon name="search"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <div class="center">
+        <h3>Himachal Pradesh</h3>
+        <button ion-button center outline icon-left (click)="radioButtonClicked($event)">
+            <ion-icon name='radio' is-active="false"></ion-icon>
+            Start Radio
+        </button>
+    </div>
+
+    <ion-grid>
+        <ion-row>
+            <ion-col class="thumbnail-on-home" *ngFor="let city of cities" col-6 (click)="thumbnailTapped($event, city)">
+                <img src="../assets/img/cities/{{city.thumbnail}}"/>
+                <div class="thumb-title">
+                    <p>{{city.name}}</p>
+                </div>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

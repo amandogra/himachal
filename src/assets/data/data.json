@@ -1,0 +1,46 @@
+{
+    "cities": [
+        {
+            "name": "Hamirpur",
+            "slug": "hamirpur",
+            "district": "hamirpur",
+            "thumbnail": "default.jpg"
+        },
+        {
+            "name": "Kangra",
+            "slug": "kangra",
+            "district": "kangra",
+            "thumbnail": "kangra.jpg"
+        },
+        {
+            "name": "Dharamsala",
+            "slug": "dharamsala",
+            "district": "kangra",
+            "thumbnail": "dharamsala.jpg"
+        },
+        {
+            "name": "Kullu",
+            "slug": "kullu",
+            "district": "kullu",
+            "thumbnail": "default.jpg"
+        },
+        {
+            "name": "Shimla",
+            "slug": "simla",
+            "district": "simla",
+            "thumbnail": "simla.jpg"
+        },
+        {
+            "name": "Solan",
+            "slug": "solan",
+            "district": "solan",
+            "thumbnail": "default.jpg"
+        },
+        {
+            "name": "Manali",
+            "slug": "manali",
+            "district": "manali",
+            "thumbnail": "manali.jpg"
+        }
+    ]
+}
